@@ -9,4 +9,6 @@ public interface MyRepository extends JpaRepository<SpringMvcRegistrationDetails
 	
 	SpringMvcRegistrationDetails getByEmail(String emailid);
 
+	SpringMvcRegistrationDetails getByNumber(String string);
+
 }
